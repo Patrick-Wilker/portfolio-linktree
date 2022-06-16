@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root{
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    text-align: center;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+header > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+header > h1 {
+    margin-bottom: 2rem;
+    line-height: 1.15;
+    font-size: 3.5rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #333333;
+}
+
+main{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+a{
+    color: #333333;
+	text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.card{
+    border: 1px solid #33333328;
+    border-radius: 8px;
+    width: 450px;
+    margin-bottom: 15px;
+    padding: 25px;
+}
+
+.card:hover{
+    border-color: blue;
+}
+
+.card > h2 {
+    text-align: left;
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.card > p{
+    text-align: left;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 1300px) {
+    main{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    main{
+        display: block;
+        
+    }
+    a{
+        width: 100%;
+    }
+    .card{
+        width: 80%;
+        margin: 0px auto 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .card{
+        width: 100%;
+    }
+}
