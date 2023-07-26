@@ -153,14 +153,6 @@ div#apresentation {
 
 }
 
-div#apresentation span{
-    display: inline-flex;
-    text-decoration: none;
-    color: #FFFFFF;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-
 div#apresentation p{
     padding: 0 0 0 20px;
 }   
@@ -168,7 +160,6 @@ div#apresentation p{
 div#apresentation h1{
     color: white;
     font-size: 45px;
-    margin-top: 20px;
 }
 
 div#apresentation p {
